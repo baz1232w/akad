@@ -165,4 +165,16 @@ window.addEventListener('scroll', animOnScroll);
 }
 
 
+const popUp = document.querySelector('.popUp')
+const closer = document.querySelector('.closer')
+const burger = document.querySelector('.burger')
 
+popUp.addEventListener('click',()=>{
+    burger.classList.add('active')
+    document.querySelector('body').classList.add('overflow')
+})
+
+closer.addEventListener('click',()=>{
+    burger.classList.remove('active')
+    document.querySelector('body').classList.remove('overflow')
+})
