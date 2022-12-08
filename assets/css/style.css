@@ -749,16 +749,17 @@ button:hover{
         align-items: center;
         background-color: #7beec7;
         height: 100vh;
+        gap: 5px;
     }
 
     .burger_menu_link{
-        height: calc(100vh / 12);
+        height: calc(100vh / 14);
         width: 100%;
     }
     .burger_menu_link a{
         padding:10px 0px;
         width: 100%;
-        line-height: calc(100vh / 12);
+        line-height: calc(100vh / 14);
         text-align: center;
         display: inline-block;
 
