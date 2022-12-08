@@ -741,7 +741,7 @@ button:hover{
         top: 0;
         left:0;
         
-        transition: width .8s ease-in-out;
+        transition: width .6s ease-in-out;
     }
     .burger_menu{
         display: flex;
@@ -749,20 +749,17 @@ button:hover{
         align-items: center;
         background-color: #7beec7;
         height: 100vh;
-        gap: 5px;
+        gap: 4px;
     }
 
     .burger_menu_link{
-        height: calc(100vh / 14);
-        width: 100%;
+        height: calc(100vh / 12);
+        text-align: center;
     }
     .burger_menu_link a{
-        padding:10px 0px;
-        width: 100%;
-        line-height: calc(100vh / 14);
-        text-align: center;
+        line-height: calc(100vh / 9);
+        width:max-content;
         display: inline-block;
-
         text-decoration: none;
         color: #60606e;
     }
