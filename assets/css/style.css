@@ -758,7 +758,6 @@ button:hover{
     .burger_menu_link a{
         padding:10px 0px;
         width: 100%;
-        line-height: calc(100vh / 20);
         text-align: center;
         display: inline-block;
 
