@@ -170,6 +170,10 @@ const closer = document.querySelector('.closer')
 const burger = document.querySelector('.burger')
 
 popUp.addEventListener('click',()=>{
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    })
     burger.classList.add('active')
     document.querySelector('body').classList.add('overflow')
 })
