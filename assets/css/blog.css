@@ -734,16 +734,13 @@ button:hover{
     }
 
     .burger_menu_link{
-        height: calc(100vh / 11);
-        width: 100%;
+        height: calc(100vh / 12);
+        text-align: center;
     }
     .burger_menu_link a{
-        padding:10px 0px;
-        width: 100%;
-        text-align: center;
+        line-height: calc(100vh / 9);
+        width:max-content;
         display: inline-block;
-        line-height: calc(100vh / 11);
-
         text-decoration: none;
         color: #60606e;
     }
